@@ -16,6 +16,9 @@ repositories {
 
 dependencies {
     compile(kotlin("stdlib-jdk8"))
+    compile ("com.google.api-clinet:google-api-clinet:1.23.0")
+    compile ("com.google.oauth-client:google-oauth-client-jetty:1.23.0")
+    compile ("com.google.apis:google-api-services-sheets:v4-rev516-1.23.0")
     testCompile("junit", "junit", "4.12")
 }
 
